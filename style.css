@@ -1,0 +1,69 @@
+
+.main-body-green
+{
+    display: none;
+    height: 910px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: white;
+}
+
+.main-body-red
+{
+    display: none;
+    height: 910px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: white;
+}
+
+#pop-up-card{
+    margin-top: 15%;
+    position: fixed;
+    border-radius: 50px;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.pop-up-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.date-container{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+label{
+    padding: 5px;
+}
+
+body{
+    background-color: rgb(94, 93, 93);
+}
+
+input[Type="button"] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 2px 0px;
+    cursor: pointer;
+    width: 105px;
+  }
